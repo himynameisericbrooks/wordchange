@@ -1,0 +1,42 @@
+This project is an application to facilitate and share I game that I (Eric Brooks) and Shane Gannaway create. The game is called Word Change and it is a hoot for nerds like me and Shane.
+
+Game rules:
+Word change is a game that typically starts with two words:
+1. The Starting Word
+2. The Destination Word
+
+The goal of the game is for players to take the starting word and take turns slowly tweaking it until they get it to morph into the Destination word.
+
+For example, if the starting word is bow and the destination word is glob, the first player might start by changing the w in "bow" to a b and getting "bob". The next player might decide to change the first b in "bob" to a g and get "gob". Then it would be the first players turn again, and they could add and l in the middle of "gob" to change it to "glob". Then the game would be over because the desination word has been reached.
+
+During each players turn, they are allowed to change the current word (On the first turn, the current word is the starting word. On every other turn, the current word is the word that the player who took the last turn change the current word to). To change the current word, the active player may alter, add or delete any one letter. Whenever the current word is changed, it must be changed to a valid word. Valid words will be chosen my the game designers and will include english words, common names and anything else that we decide makes for a good experience.
+
+Variations:
+Phrases -
+This game can be played with phrases as well (short 2-3 word phrases typically work best). If playing a game with phrases, adding and subtracting spaces between words does not count as adding or deleting a letter, so it may be done as many times as a player likes during their turn. 2 consecutive spaces are not allowed.
+
+2-letter changes per turn -
+In many cases, it is impossible to get from one word to another by only changing one letter at a time in a string of consecutive valid words (for example: Starting word - cat, Destination word - Supercalifragilisticexpialidocious. There are no valid words that are only one letter different than supercalifragilisticexpialidocious, so players who try to word change with these words are doomed to lose.) In an effort to make more combinations of Starting Words and Destination Words which produce winnable scenarios, players may decide to allow up to two letters to be added, deleted or altered on any given turn, however, the truist form of Word Change demands that players alter the current word by only one letter whenever possible.
+
+Brainstorm:
+Players sign in.
+
+Once signed in, they choose to either start a new game, join an existing game or view archived games.
+
+    If they choose new game, they are considered the host and they choose which players to invite to the new game and they select from a list of options how the Starting Word and Destination words will be selected.
+    Options include:
+    1. Host chooses both words
+    2. Host chooses 1 word - an invited user chooses second word
+    3. Host chooses 1 word - second word is randomly chosen
+    4. Invited users choose both words
+    5. Both words are randomly chosen.
+
+    If the player chooses to join an existing game after they log in, they will see a list of in-progress games from which they may choose.
+
+    If a player chooses to view archived games after logging in, they will be able to choose from a list of any saved, completed games and view those games by clicking on a link to an individual game. They can be viewed and searched for by Starter and Destination words, by other players involved and by date completed and date started.
+
+During gameplay, players view the starting word, the destination word, the current word and the 10 most recent previous words with the capability to scroll to see older previous words. The active player has an active (not greyed out) text input box, while the inactive players have an inactive (grayed out) text input box.
+
+A game is completed when a player changes the current word to the destination word or when 50% or more of the players decide to concede (players may concede at any time by clicking a red button that says "concede?").
+Players who concede before the game is completed may still view that game, but their will no longer be able to participate. Whenever their turn would come up, they are instead skipped.
+When a game is completed, all players are notified and they are given the option to view the final list of words. They are also presented with the option to archive the game to view later.

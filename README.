@@ -1,4 +1,4 @@
-This project is an application to facilitate and share I game that I (Eric Brooks) and Shane Gannaway create. The game is called Word Change and it is a hoot for nerds like me and Shane.
+This project is an application to facilitate and share a game that I (Eric Brooks) and Shane Gannaway created. The game is called Word Change and it is a hoot for nerds like me and Shane.
 
 Game rules:
 Word change is a game that typically starts with two words:
@@ -40,3 +40,21 @@ During gameplay, players view the starting word, the destination word, the curre
 A game is completed when a player changes the current word to the destination word or when 50% or more of the players decide to concede (players may concede at any time by clicking a red button that says "concede?").
 Players who concede before the game is completed may still view that game, but their will no longer be able to participate. Whenever their turn would come up, they are instead skipped.
 When a game is completed, all players are notified and they are given the option to view the final list of words. They are also presented with the option to archive the game to view later.
+
+
+Pages needed:
+
+Primary functionality:
+1. Sign-in
+2. Sign-up
+3. Home
+4. Create new game
+5. In-progress games index*
+6. Completed games archive*
+
+Support/Resource
+7. Rules
+8. Dictionary
+9. Contact
+
+*These pages will load in user data

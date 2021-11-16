@@ -6,14 +6,6 @@
     box-sizing: border-box;
 }
 
-html {
-    font-size: 16px;
-}
-
-input {
-    font-size: 14px;
-}
-
 body {
     line-height: 1.4;
     color: #333333;
@@ -32,6 +24,7 @@ label {
 }
 
 input {
+    font-size: 14px;
     border: 1px solid #eeeeee;
     padding: 12px;
     outline: none;
@@ -56,7 +49,13 @@ button:disabled {
     background: #7c5cbf94;
 }
 
-/* Join Page Styles */
+.main-title {
+    background-color: #131113;
+    color: #ffefef;
+    padding-bottom: 3px;
+}
+
+/* Sign in Page Styles */
 
 .centered-form {
     background: #333744;
@@ -81,6 +80,31 @@ button:disabled {
 .centered-form input {
     margin-bottom: 16px;
     width: 100%;
+}
+
+.sign-up-container {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.sign-up {
+    font-size: 12px;
+    padding-top: 5px;
+    justify-content: right;
+    align-items: right;
+    float: right;
+}
+
+.sign-up-link {
+    color: #7C5CBF;
+    cursor: pointer;
+    font-size: 11px;
+    float: right;
+}
+
+.sign-up-link:hover {
+    color: #6b47b8;
 }
 
 /* Chat Page Layout */

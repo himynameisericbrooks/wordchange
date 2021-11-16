@@ -8,7 +8,7 @@
 
 body {
     line-height: 1.4;
-    color: #333333;
+    color: #131113;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -49,16 +49,21 @@ button:disabled {
     background: #7c5cbf94;
 }
 
-.main-title {
+.title-container {
+    padding: 10px 0px 0px 10px;
     background-color: #131113;
+    justify-content: left;
+    display: flex;
+}
+
+.main-title {
     color: #ffefef;
-    padding-bottom: 3px;
 }
 
 /* Sign in Page Styles */
 
 .centered-form {
-    background: #333744;
+    background: linear-gradient( #141414, #444455);
     width: 100vw;
     height: 100vh;   
     display: flex;

@@ -2,13 +2,25 @@
 <html>
     <head>
         <script src="https://kit.fontawesome.com/f937a777ee.js" crossorigin="anonymous"></script>
-        <title>Word Change</title>
+        <title>Word Change: Home</title>
         <link rel="icon" href="/img/favicon.ico">
-        <link rel="stylesheet" href="css/styles.css"
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
             <div class="title-container">
-                    <h1 class="main-title">Word Change</h1>
-                </div>
+                <h1 class="main-title">Word Change</h1>
+            </div>
+            <h2>Home</h2>
+            <form action="games-setup.html">
+                <button class="games-setup-btn">New Game</button>
+            </form>
+            <!-- Hide if no games in progress found -->
+            <form action="games-index.html">
+                <button class="ng-setup-btn">In progress</button>
+            </form>
+            <!-- Hide if no archived games found -->
+            <form action="games-archive.html">
+                <button class="ng-setup-btn">Archive</button>
+            </form>
     </body>
 </html>

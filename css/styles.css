@@ -50,15 +50,20 @@ button:disabled {
 }
 
 .title-container {
-    height: 15vh;
+    height: 80px;
     padding: 10px 0px 0px 10px;
     background-color: #131113;
     justify-content: left;
     display: flex;
 }
 
+.container {
+    margin: 20px;
+}
+
 .main-title {
     color: #ffefef;
+    padding: 10px 0px 0px 10px
 }
 
 /* Sign in Page Styles */
@@ -116,4 +121,11 @@ button:disabled {
 .footer {
     height: 15vh;
     background: linear-gradient(#6b47b8, #6a46b7);
+}
+
+/* gameplay page styles */
+.words-container {
+    display: flex;
+    padding: 6px;
+    justify-content: space-evenly;
 }

@@ -7,16 +7,22 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, 0">
-        <script src="https://kit.fontawesome.com/f937a777ee.js" crossorigin="anonymous"></script>
         <title>Word Change: Archive</title>
-        <link rel="icon" href="/img/favicon.ico">
+        <!-- <link rel="icon" href="/img/favicon.ico"> -->
         <link rel="stylesheet" href="css/styles.css">
         </head>
     </head>
     <body>
-        <div class ="container">
-            <p id="output">Welcome to Wordchange
-            </p>
+        <div class="title-container">
+            <h1 class="main-title">Word Change</h1>
+        </div>
+        <div class='words-container'>
+            <div id="start-word"></div>
+            <div id="current-word"></div>
+            <div id="destination-word"></div>
+        </div>
+        <div class="container">
+            <p id="output">Let's get started</p>
             
             <input class ="textbox" id="input" type="text" placeholder="Enter your change here!">
             <div class = 'btnhouse'>
@@ -25,6 +31,6 @@
         </div>
 
 
-        <script src="main.js" async defer></script>
+        <script src="gameplay.js" async defer></script>
     </body>
 </html>

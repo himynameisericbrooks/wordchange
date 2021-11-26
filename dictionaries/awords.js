@@ -16200,7 +16200,7 @@ const awords = [
    'AZYMITE',
    'AZYMITES',
    'AZYMOUS',
-   'AZYMS',
+   'AZYMS'
 ];
 
 module.exports = {

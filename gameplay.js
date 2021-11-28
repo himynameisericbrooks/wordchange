@@ -49,26 +49,15 @@ var input = document.querySelector("#input");
 var output = document.querySelector("#output");
 
 // button stuff
-var button = document.querySelector("button");
-button.style.cursor = "pointer";
-button.addEventListener("click", playGame, false);
+// var button = document.querySelector("button");
+// button.style.cursor = "pointer";
+// button.addEventListener("click", playGame, false);
 
-function playGame()
+// function playGame()
 {
-    guess = input.value;
-
-// if they guess wrong, tell them if they were too high or too low and have them guess again
     // output.innerHTML = '<span>' + 'Number of changes so far: ' + count + '<br>' + ' You changed the word to: ' + input.value + " Now it's someone else's turn turn." + '</span>';
     // tryCount +=1;
-
-    // If a non-number is submitted
-//     else {
-//         output.innerHTML = 'That is not a valid number. <br> <span>Try again!</span>';
-//         }
-}
-
-
-
+// }
 // Display starting word and the destination word
 
 

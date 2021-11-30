@@ -1,0 +1,22 @@
+{
+  "name": "wordchange",
+  "version": "1.0.0",
+  "description": "This project is an application to facilitate and share a game that I (Eric Brooks) and Shane Gannaway created. The game is called Word Change and it is a hoot for nerds like me and Shane.",
+  "main": "gameplay.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himynameisericbrooks/wordchange.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/himynameisericbrooks/wordchange/issues"
+  },
+  "homepage": "https://github.com/himynameisericbrooks/wordchange#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

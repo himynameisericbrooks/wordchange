@@ -1,3 +1,17 @@
+
+const path = require('path')
+const express = require('express')
+const app = express()
+
+const port = process.env.PORT || 3000
+const publicDirectoryPath = path.join(__dirname, '../public')
+
+app.use(express.static(publicDirectoryPath))
+
+app.listen(port, () => {
+    console.log(`Server is up on ${port}!`)
+})
+
 // const awords = require('./valid-words/awords')
 // const bwords = require('./valid-words/bwords')
 // const cwords = require('./valid-words/cwords')
@@ -23,22 +37,22 @@
 // const wwords = require('./valid-words/wwords')
 // const xwords = require('./valid-words/xwords')
 // const ywords = require('./valid-words/ywords')
-const zwords = require('./valid-words/zwords.js');
+// const zwords = require('./valid-words/zwords.js')
 
-const startword = "lemon";
-var starthtml = document.querySelector("#start-word");
-starthtml.innerHTML = "Starting word: " + startword;
+// const startword = "lemon";
+// var starthtml = document.querySelector("#start-word");
+// starthtml.innerHTML = "Starting word: " + startword;
 
-var currentword = startword;
-var currenthtml = document.querySelector("#current-word");
-currenthtml.innerHTML = "Current word: " + currentword;
-document.getElementById("input").defaultValue = currentword;
+// var currentword = startword;
+// var currenthtml = document.querySelector("#current-word");
+// currenthtml.innerHTML = "Current word: " + currentword;
+// document.getElementById("input").defaultValue = currentword;
 
-const destinationword = "ladle";
-var destinationhtml = document.querySelector("#destination-word");
-destinationhtml.innerHTML = "Destination word: " + destinationword;
+// const destinationword = "ladle";
+// var destinationhtml = document.querySelector("#destination-word");
+// destinationhtml.innerHTML = "Destination word: " + destinationword;
 
-console.log(zwords)
+// console.log(zwords)
 
 
 // Attempts counter

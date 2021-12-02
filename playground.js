@@ -25,6 +25,227 @@ const xwords = require('./valid-words/xwords')
 const ywords = require('./valid-words/ywords')
 const zwords = require('./valid-words/zwords')
 
-const startword = 'tool'
-var currentword = startword
-const endword = loop
+const input = require(`readline-sync`)
+const startword = input.question('What is the starting word? ').toUpperCase()
+let currentword = startword
+
+const endword = input.question("Choose your end word: ").toUpperCase()
+let changecount = 0
+let firstletter
+let iswordvalid = true
+
+// console.log(`${startword} ${currentword} ${endword}`)
+
+while (changecount < 1) {
+    firstletter = currentword[0]
+    switch (firstletter) {
+        case 'A':
+            if (awords.awords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'B':
+            if (bwords.bwords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'C':
+            if (cwords.cwords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'D':
+            if (dwords.dwords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'E':
+            if (ewords.ewords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'F':
+            if (fwords.fwords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'G':
+            if (gwords.gwords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'H':
+            if (hwords.hwords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'I':
+            if (iwords.iwords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'J':
+            if (jwords.jwords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'K':
+            if (kwords.kwords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'L':
+            if (lwords.lwords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'M':
+            if (mwords.mwords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'N':
+            if (nwords.nwords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'O':
+            if (owords.owords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'P':
+            if (pwords.pwords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'Q':
+            if (qwords.qwords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'R':
+            if (rwords.rwords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'S':
+            if (swords.swords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'T':
+            if (twords.twords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'U':
+            if (uwords.uwords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'V':
+            if (vwords.vwords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'W':
+            if (wwords.wwords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'X':
+            if (xwords.xwords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'Y':
+            if (ywords.ywords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        case 'Z':
+            if (zwords.zwords.includes(currentword)) {
+                iswordvalid = true
+            } else {
+                iswordvalid = false
+            }
+            break;
+        default:
+            iswordvalid = false
+    }
+    changecount++
+}
+
+console.log(iswordvalid)
+
+// while(changecount < 20) {
+//     console.log('This is my ' + changecount + ' sally.')
+//     changecount++
+// }
+
+// console.log('It took you ' + changecount + ' changes to get from ' + startword + ' to ' + endword + '.')
+
+
+// currentword = input.question(`Great job!
+// Start word: ${startword}
+// Target word: ${endword}
+// ChangeCount: ${changecount}
+// The current word is now ${currentword}
+// Make another change.`)
+//                 changecount++
+
+// currentword = input.question(`That is not a valid word. Please try again.
+// Start word: ${startword}
+// Target word: ${endword}
+// The current word is now: ${currentword}`).toUpperCase()

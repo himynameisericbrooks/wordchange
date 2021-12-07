@@ -32,7 +32,7 @@ let currentword = startword
 const endword = input.question("Choose your end word: ").toUpperCase()
 let changecount = 0
 let firstletter
-let iswordvalid = true
+let iswordvalid = false
 
 // console.log(`${startword} ${currentword} ${endword}`)
 
@@ -42,85 +42,61 @@ while (changecount < 1) {
         case 'A':
             if (awords.awords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'B':
             if (bwords.bwords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'C':
             if (cwords.cwords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'D':
             if (dwords.dwords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'E':
             if (ewords.ewords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'F':
             if (fwords.fwords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'G':
             if (gwords.gwords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'H':
             if (hwords.hwords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'I':
             if (iwords.iwords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'J':
             if (jwords.jwords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'K':
             if (kwords.kwords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'L':
             if (lwords.lwords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'M':
@@ -227,8 +203,9 @@ while (changecount < 1) {
     changecount++
 }
 
-console.log(iswordvalid)
+if (iswordvalid) {
 
+}
 // while(changecount < 20) {
 //     console.log('This is my ' + changecount + ' sally.')
 //     changecount++

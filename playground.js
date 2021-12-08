@@ -102,110 +102,80 @@ while (changecount < 1) {
         case 'M':
             if (mwords.mwords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'N':
             if (nwords.nwords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'O':
             if (owords.owords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'P':
             if (pwords.pwords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'Q':
             if (qwords.qwords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'R':
             if (rwords.rwords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'S':
             if (swords.swords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'T':
             if (twords.twords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'U':
             if (uwords.uwords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'V':
             if (vwords.vwords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'W':
             if (wwords.wwords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'X':
             if (xwords.xwords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'Y':
             if (ywords.ywords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
         case 'Z':
             if (zwords.zwords.includes(currentword)) {
                 iswordvalid = true
-            } else {
-                iswordvalid = false
             }
             break;
-        default:
-            iswordvalid = false
     }
     changecount++
 }
 
-if (iswordvalid) {
+// if (iswordvalid) {
 
-}
+// }
 // while(changecount < 20) {
 //     console.log('This is my ' + changecount + ' sally.')
 //     changecount++
